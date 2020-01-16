@@ -1,3 +1,39 @@
 p {
   font-family: Lato;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+div.key {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+
+div.key.white {
+  width: 50px;
+  height: 200px;
+  border: solid 1px #000;
+  z-index: 1;
+  padding-top: 150px;
+}
+div.key.white:hover {
+  background-color: #ccc;
+}
+
+div.key.black {
+  width: 35px;
+  height: 130px;
+  background-color: #000;
+  position: absolute;
+  margin-left: -17px;
+  z-index: 2;
+  color: #ddd;
+}
+div.key.black:hover {
+  background-color: #666;
+}
+
